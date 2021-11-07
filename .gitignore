@@ -34,3 +34,24 @@
 /yarn-error.log
 yarn-debug.log*
 .yarn-integrity
+
+# См. https://help.github.com/articles/ignoring-files для всей информации
+# об игнорировании файлов
+# Если вы обнаружите, что игнорируете файлы, созданные текстовым
+# редактором или операционной системой, возможно вместо этого вы захотите
+# добавить глобальное игнорирование
+#   git config --global core.excludesfile '~/.gitignore_global'
+
+# Игнорировать конфигурацию bundler
+/.bundle
+
+# Игнорировать базу данных SQLite по умолчанию
+/db/*.sqlite3
+/db/*.sqlite3-journal
+
+# Игнорировать все логи и временные файлы
+/log/*.log
+/tmp
+
+# Игнорировать файлы Spring
+/spring/*.pid
