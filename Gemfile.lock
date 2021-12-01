@@ -263,7 +263,7 @@ DEPENDENCIES
   mini_backtrace
   minitest-reporters
   pg (~> 1.1)
-  puma (~> 5.0)
+  puma
   rack-mini-profiler (~> 2.0)
   rails (~> 6.1.4, >= 6.1.4.1)
   rails-controller-testing
