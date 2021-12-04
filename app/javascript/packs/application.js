@@ -5,7 +5,7 @@
 //= require bootstrap
 
 import Rails from "@rails/ujs"
-import Turbolinks from "turbolinks"
+// import Turbolinks from "turbolinks"
 import * as ActiveStorage from "@rails/activestorage"
 import "channels"
 
@@ -19,7 +19,7 @@ import "bootstrap"
 import { Tooltip, Popover } from "bootstrap"
 
 // The stylesheet location we created earlier
-require("../stylesheets/application.scss")
+import "../stylesheets/application.scss"
 
 // If you're using Turbolinks. Otherwise simply use: jQuery(function () {
 document.addEventListener("turbolinks:load", () => {
@@ -36,6 +36,6 @@ document.addEventListener("turbolinks:load", () => {
 })
 
 Rails.start()
-Turbolinks.start()
+// Turbolinks.start()
 ActiveStorage.start()
 
