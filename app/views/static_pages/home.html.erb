@@ -1,5 +1,8 @@
 <% if logged_in? %>
   <%= render 'shared/user_menu' %>
+  <section class="stats">
+    <%= render 'shared/stats' %>
+  </section>
 <% else %>
   <%= render 'shared/visitor_menu' %>
 <% end %>
